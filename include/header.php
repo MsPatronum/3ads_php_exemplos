@@ -9,5 +9,6 @@
 <ul>
     <li><a href="index.php"> Home </a></li>
     <li><a href="index.php?route=cliente&action=list"> Clientes </a></li>
+    <li><a href="index.php?route=filme&action=list"> Filmes </a></li>
 </ul>
     

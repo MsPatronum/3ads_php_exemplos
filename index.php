@@ -53,7 +53,6 @@
 
 
         include 'include/header.php';
-        require_once 'controller/ClienteController.php';
 
         // Obtém a rota da URL
         /*  
@@ -82,18 +81,18 @@
         $route_controller = [
             'home' => 'HomeController',
             'cliente' => 'ClienteController',
-            'produto' => 'ProdutoController',
+            'filme' => 'FilmeController',
             // Adicione mais rotas conforme necessário
         ];
         $route_model = [
             'cliente' => 'ClienteModel',
-            'produto' => 'ProdutoModel',
+            'filme' => 'FilmeModel',
             // Adicione mais rotas conforme necessário
         ];
         $route_view = [
             'home' => 'HomeView',
             'cliente' => 'ClienteView',
-            'produto' => 'ProdutoView',
+            'filme' => 'FilmeView',
             // Adicione mais rotas conforme necessário
         ];
 
